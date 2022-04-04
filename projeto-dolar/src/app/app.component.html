@@ -1,0 +1,19 @@
+<div class="bt">
+  <section class="sec-principal">
+    <form [formGroup]="dolar" class="ajuste">
+      <h1 class="back">Cotações de Moedas</h1>
+      <div class="color-back">
+        <select formControlName="USD" class="sele" id="">
+          <option selected value="USD">USD</option>
+        </select>
+        <input type="text" formControlName="dolar" class="input-c">
+      </div>
+      <div class="color-back-btn">
+        <button (click)="getdolar()" type="button" class="btn btn-secondary btn-sm forma btn-forma">Pesquisar</button>
+      </div>
+
+      <label class="resul">Valor da moeda em REAIS:R${{resp*mult}}</label>
+
+    </form>
+  </section>
+</div>

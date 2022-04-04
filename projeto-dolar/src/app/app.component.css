@@ -1,0 +1,49 @@
+
+.back {
+  background-color: antiquewhite;
+}
+.sec-principal {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+.ajuste {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: currentColor;
+  height: 1rem;
+}
+.resul {
+  margin-top: 1rem;
+  display: flex;
+  width: 8rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aquamarine;
+}
+.btn-forma {
+  margin-top: 1rem;
+  display: flex;
+  margin-left: 4rem;
+}
+.color-back {
+  background-color: papayawhip;
+  height: 2rem;
+  align-content: center;
+  align-items: center;
+  display: flex;
+}
+.input-c {
+  width: 5rem;
+  border-radius: 10px;
+  border: ridge;
+  margin-left: 2rem;
+}
+.sele {
+  border-radius: 10px;
+  border: ridge;
+}
+.color-back-btn {
+  background-color: aquamarine;
+}
